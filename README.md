@@ -1,15 +1,4 @@
 #Csharp-code-for-review
-Starting level practicing
-//变量Variable内容学习
-//首先将数据类型初始化
-namespace variable;
-class Program
-{
-    //static void Main(string[] args)
-    //{
-    //char a = 'c';
-    //int b = a;
-    //int b = 'a' 输出结果是a对应的97，不加特定''符号的话是根据上述逻辑等于99
 
     //int a = 50;
     //char b = (char)a;
