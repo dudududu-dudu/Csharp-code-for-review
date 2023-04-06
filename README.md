@@ -1,15 +1,7 @@
 #Csharp-code-for-review
 Starting level practicing
-
-
-
-
-
-
-
-
-
-
+//变量Variable内容学习
+//首先将数据类型初始化
 namespace variable;
 class Program
 {
