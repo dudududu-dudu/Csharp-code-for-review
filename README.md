@@ -83,7 +83,25 @@
         double b = Convert.ToDouble(Console.ReadLine());
 
         Console.WriteLine(a/b);
+//  &&和  ||或   !非
+        bool a = (3 < 4) && (9 < 10);// true && false
 
+        bool b = (3 < 2) && (9 < 7);
+
+        bool c = !(4 < 7);
+
+        Console.WriteLine(a);
+        Console.WriteLine(b);
+        Console.WriteLine(c);
+
+        //输入一个人的年龄，判断这个是否为青壮年，青壮年的标准是18-60岁
+
+
+        int age = Convert.ToInt32(Console.ReadLine());
+        
+        bool isYoung = (18 <= age) && (age<=60);
+
+        Console.WriteLine(isYoung);
 
     }
 }
