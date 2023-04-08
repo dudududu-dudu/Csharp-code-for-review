@@ -139,5 +139,18 @@
         p /= 3; //p =7/3=2
         p *= 3; //6
         Console.WriteLine(p);
+        
+        
+        
+        int number = Convert.ToInt32(Console.ReadLine());
+        if (number % 2 == 1)//这里的条件语句是逻辑判断所以是两个==等号
+        {
+            Console.WriteLine("奇数");
+        }
+        else
+        {
+            Console.WriteLine("偶数");
+        }
+    
 
 
