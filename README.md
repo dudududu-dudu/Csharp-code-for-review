@@ -195,3 +195,23 @@
         else if (x != 0 && y == 0)
         {
             Console.WriteLine("位于x轴上");
+
+
+
+//charの大きさの比較.....AからZまで
+        char a = Convert.ToChar(Console.ReadLine());
+        char b = Convert.ToChar(Console.ReadLine());
+        if (a > b)
+        {
+            Console.WriteLine("{0}" + ">" + "{1}", a, b);
+        }
+        if (a < b)
+        {
+            Console.WriteLine("{0}" + "<" + "{1}", a, b);
+        }
+        if (a != b)
+        {
+            return;
+        }
+        Console.WriteLine("{0}" + "=" + "{1}", a, b);
+        
