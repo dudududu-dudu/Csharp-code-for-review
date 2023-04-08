@@ -152,5 +152,21 @@
             Console.WriteLine("偶数");
         }
     
-
+        int Score = Convert.ToInt32(Console.ReadLine());
+        if (Score >= 90)
+        {
+            Console.WriteLine("A");
+        }
+        else if (Score >= 70)
+        {
+            Console.WriteLine("B");
+        }
+        else if (Score >= 60)
+        {
+            Console.WriteLine("C");
+        }
+        else if(Score>=0)
+        {
+            Console.WriteLine("D");
+        }
 
