@@ -76,8 +76,7 @@
 
 
     //从此处开始重新写一遍
-    public static void Main(string [] args)
-    {
+
 
         double a = Convert.ToDouble(Console.ReadLine());
         double b = Convert.ToDouble(Console.ReadLine());
@@ -102,7 +101,36 @@
         bool isYoung = (18 <= age) && (age<=60);
 
         Console.WriteLine(isYoung);
+        
+        
 
-    }
-}
+     /* 加法+
+         * 减法-
+         * 乘法*
+         * 除法/
+         * 取模（求余）%  注意用于整数，小数容易不精确
+         */
+        //问题....设计一个算法，可以吧任意一个两位数分离它的个位和十位上面的数字
+        //比如78，十位是7，个位是8,且运用格式化输出,同时使用输入指令
+        //Convert.ToInt32(Console.ReadLine());
+
+        int a = Convert.ToInt32(Console.ReadLine());
+        int shi = a / 10;
+        int ge = a % 10;
+        
+        Console.WriteLine(a+"的十位是{0},个位是{1}",shi,ge);
+        //注意此处的逻辑符号,""外面的+代表数字和内部字符串的合并后面的,是格式化后应用的数据
+        //赋值运算符 +=, -=, *=, /= 将左边的数用等号前面的符号和右边数字进行运算
+
+        int x = 1;
+        x += 10; //x = 1 + 10 = 11
+        x -= 11; //x = 11 - 11 = 0
+        Console.WriteLine(x);
+
+
+        int p = 7;
+        p /= 3; //p =7/3=2
+        p *= 3; //6
+        Console.WriteLine(p);
+
 
