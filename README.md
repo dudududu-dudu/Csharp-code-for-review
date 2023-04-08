@@ -198,7 +198,7 @@
 
 
 
-//charの大きさの比較.....AからZまで
+　　　　　//charの大きさの比較.....AからZまで
         char a = Convert.ToChar(Console.ReadLine());
         char b = Convert.ToChar(Console.ReadLine());
         if (a > b)
