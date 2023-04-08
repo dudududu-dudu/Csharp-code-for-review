@@ -169,4 +169,29 @@
         {
             Console.WriteLine("D");
         }
+        int x = Convert.ToInt32(Console.ReadLine());
+        int y = Convert.ToInt32(Console.ReadLine());
 
+        if (x > 0 && y > 0)
+        {
+            Console.WriteLine("位于第一象限");
+        }
+        else if (x < 0 && y > 0)
+        {
+            Console.WriteLine("位于第二象限");
+        }
+        else if (x < 0 && y < 0)
+        {
+            Console.WriteLine("位于第三象限");
+        }
+        else if (x > 0 && y < 0)
+        {
+            Console.WriteLine("位于第四象限");
+        }
+        else if (x == 0 && y != 0)
+        {
+            Console.WriteLine("位于y轴上");
+        }
+        else if (x != 0 && y == 0)
+        {
+            Console.WriteLine("位于x轴上");
