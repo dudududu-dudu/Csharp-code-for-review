@@ -102,6 +102,13 @@
 
         Console.WriteLine(isYoung);
         
+        int mathScore = Convert.ToInt32(Console.ReadLine());
+        int englishScore = Convert.ToInt32(Console.ReadLine());
+        bool award = mathScore >= 90 && englishScore >= 90;
+        bool award2 = !(mathScore < 90) && !(englishScore < 90);
+        Console.WriteLine(award);
+        Console.WriteLine(award2);
+        
         
 
      /* 加法+
