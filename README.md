@@ -83,6 +83,7 @@
 
         Console.WriteLine(a/b);
 //  &&和  ||或   !非
+        
         bool a = (3 < 4) && (9 < 10);// true && false
 
         bool b = (3 < 2) && (9 < 7);
@@ -111,7 +112,8 @@
         
         
 
-     /* 加法+
+
+/* 加法+
          * 减法-
          * 乘法*
          * 除法/
@@ -140,6 +142,11 @@
         p *= 3; //6
         Console.WriteLine(p);
         
+        
+        
+        
+        
+//if判断        
         
         
         int number = Convert.ToInt32(Console.ReadLine());
@@ -198,7 +205,11 @@
 
 
 
-　　　　　//charの大きさの比較.....AからZまで
+
+
+//charの大きさの比較.....AからZまで
+        
+        
         char a = Convert.ToChar(Console.ReadLine());
         char b = Convert.ToChar(Console.ReadLine());
         if (a > b)
