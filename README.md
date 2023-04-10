@@ -274,7 +274,8 @@
         
         
 // 四つの数字を入力し、最小値と最大値を出力する
-        // a b c d  假设第一个数是最大最小值再依次比较
+    
+
         int a = Convert.ToInt32(Console.ReadLine());
         int b = Convert.ToInt32(Console.ReadLine());
         int c = Convert.ToInt32(Console.ReadLine());
