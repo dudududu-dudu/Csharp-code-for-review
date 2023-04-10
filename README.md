@@ -373,7 +373,7 @@
 //ある数字nを入力し、１からnまでの和を計算する
 
 
-        int n =Convert.ToInt32(Console.WriteLine());
+        int n =Convert.ToInt32(Console.ReadLine());
         int i = 1;
         int sum = 0;
         while(i<n+1)
