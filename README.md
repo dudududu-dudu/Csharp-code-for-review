@@ -311,3 +311,32 @@
         }
 
         Console.WriteLine("最小値は{0},最大値は{1}である",min,max);
+        
+        
+        
+        
+//让用户输入两个整数，然后在输入0-3之间的一个数，0代表加法，1代表减法，2代表乘法
+//3代表除法，计算这两个数字的结果
+        int a = Convert.ToInt32(Console.ReadLine());
+        int b = Convert.ToInt32(Console.ReadLine());
+
+        int op = Convert.ToInt32(Console.ReadLine());//开关数变量设定
+
+        int res = 0;//结果数变量声明
+        switch (op)//声明op的在后面case中起到的开关效果
+        {
+            case 0:
+                res = a + b;
+                Console.WriteLine(res);
+                break;
+            case 1:
+                res = a - b;
+                Console.WriteLine(res);
+                break;
+            case 2:
+                res = a * b;
+                break;
+            case 3:
+                res = a / b;
+                Console.WriteLine(res);
+                break;
