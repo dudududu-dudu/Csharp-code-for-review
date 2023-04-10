@@ -351,7 +351,7 @@
 
 
 
-            int i = 0;
+        int i = 0;
             while (i < 1000001)
         {
             Console.WriteLine(i);
@@ -367,3 +367,18 @@
             i--;
         }
         //100~1
+
+
+
+//ある数字nを入力し、１からnまでの和を計算する
+
+
+        int n =Convert.ToInt32(Console.WriteLine());
+        int i = 1;
+        int sum = 0;
+        while(i<n+1)
+        {
+            sum +=i;
+            i++;
+        }
+        Console.WriteLine(sum);
