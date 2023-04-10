@@ -344,3 +344,21 @@
                 res2 = a*1.0 / b;
                 Console.WriteLine(res2);
                 break;
+                
+                
+ //while循环     
+            int i = 0;
+            while (i < 1000001)
+        {
+            Console.WriteLine(i);
+            i++;
+        }
+       //0～1000000
+       
+//100~1
+        int i = 100;
+        while (i>0)
+        {
+            Console.WriteLine(i);
+            i--;
+        }
