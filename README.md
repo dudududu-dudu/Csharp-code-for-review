@@ -269,3 +269,45 @@
         {
             Console.WriteLine("数字ではない");
         }
+        
+        
+        
+        
+// 四つの数字を入力し、最小値と最大値を出力する
+        // a b c d  假设第一个数是最大最小值再依次比较
+        int a = Convert.ToInt32(Console.ReadLine());
+        int b = Convert.ToInt32(Console.ReadLine());
+        int c = Convert.ToInt32(Console.ReadLine());
+        int d = Convert.ToInt32(Console.ReadLine());
+
+        int max = a, min = a;
+        if (max < b)
+        {
+            max = b;
+        }
+
+        if (max <c)
+        {
+            max = c;
+        }
+
+        if (max < d)
+        {
+            max = d;
+        }
+
+        if (min > b)
+        {
+            min = b;
+        }
+
+        if (min > c)
+        {
+            min = c;
+        }
+        if (min > d)
+        {
+            min = d;
+        }
+
+        Console.WriteLine("最小値は{0},最大値は{1}である",min,max);
