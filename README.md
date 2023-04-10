@@ -340,6 +340,7 @@
                 res = a * b;
                 break;
             case 3:
-                res = a / b;
-                Console.WriteLine(res);
+                double res2 = 0;
+                res2 = a*1.0 / b;
+                Console.WriteLine(res2);
                 break;
