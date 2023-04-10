@@ -254,3 +254,18 @@
             b = temp;
         }
         Console.WriteLine(a+" "+b+" "+c);
+
+
+
+
+//ある文字aを入力し、数字であるかどうかを判断する
+
+        char a = Convert.ToChar(Console.ReadLine());
+        if (a >= '0' && a <= '9')
+        {
+            Console.WriteLine("数字である");
+        }
+        else
+        {
+            Console.WriteLine("数字ではない");
+        }
