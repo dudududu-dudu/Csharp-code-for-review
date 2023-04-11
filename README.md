@@ -384,8 +384,10 @@
         Console.WriteLine(sum);
         
         
-        ------------------------------
-        
+
+
+
+//あるクラスの人数を入力し、また各人の年齢を入力し、平均値を求める
         
 
         int n = Convert.ToInt32(Console.ReadLine());
