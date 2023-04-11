@@ -382,3 +382,55 @@
             i++;
         }
         Console.WriteLine(sum);
+        
+        
+        ------------------------------
+        
+        
+
+        int n = Convert.ToInt32(Console.ReadLine());
+        int i = 1;
+        int sum = 0;
+        while (i < n + 1)
+        {
+            int year = Convert.ToInt32(Console.ReadLine());
+            sum += year;
+            i++;
+        }
+        double ave = 1.0 * sum / n;
+        // 4.5342*100 (int) 453
+        
+        ave = ((int)(ave * 100)) / 100.0;
+        Console.WriteLine(ave);
+        
+       -----------------------------------------
+        Console.Write("请输学生总数__");
+        int n = Convert.ToInt32(Console.ReadLine());
+        int sum = 0;
+        for (int i = 1; i < n + 1; i++)
+        {
+            Console.Write("请输入学生年龄__");
+            int year = Convert.ToInt32(Console.ReadLine());
+            sum += year;
+        }
+        double ave = 1.0 * sum / n;
+        ave = ((int)(ave * 100)) / 100.0;  //先将其强制输入成整数然后除以100.0
+        
+        Console.WriteLine("该班级学生的平均年龄为"+ave);
+        -----------------------------------------------
+        Console.Write("请输入学生个数：");
+            int studentCount = int.Parse(Console.ReadLine());
+
+            int[] ages = new int[studentCount];
+            double totalAge = 0;
+
+            for (int i = 0; i < studentCount; i++)
+            {
+                Console.Write($"请输入第{i + 1}个学生的年龄：");
+                ages[i] = int.Parse(Console.ReadLine());
+                totalAge += ages[i];
+            }
+
+            double averageAge = totalAge / studentCount;
+            Console.WriteLine($"平均年龄为：{averageAge:F2}");
+            ---------------------------------------------------
