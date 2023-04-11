@@ -436,3 +436,33 @@
             double averageAge = totalAge / studentCount;
             Console.WriteLine($"平均年龄为：{averageAge:F2}");
             ---------------------------------------------------
+
+
+
+
+//ユーザーが入力した2つの正の整数nおよびmの間（nおよびmを含む）の奇数および偶数を別々の行に出力します
+            
+            
+            Console.Write("正の整数nを入力してください：");
+            int n = Convert.ToInt32(Console.ReadLine());
+            Console.Write("正の整数mを入力してください：");
+            int m = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("奇数：");
+            for (int i = n; i <= m; i++)
+            {
+                if (i % 2 != 0)
+                {
+                    Console.Write(i + " ");
+                }
+            }
+
+            Console.WriteLine();
+
+            Console.Write("偶数：");
+            for (int i = n; i <= m; i++)
+            {
+                if (i % 2 == 0)
+                {
+                    Console.Write(i + " ");
+                }
