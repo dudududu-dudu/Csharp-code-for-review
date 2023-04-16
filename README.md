@@ -466,3 +466,18 @@
                 {
                     Console.Write(i + " ");
                 }
+                
+            
+//-------------------------------------------------------            
+        Console.WriteLine("利率を入力してください");
+        int rate = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("元本を入力してください");
+        int money = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("投資期間（年数）を入力してください");
+        int year = Convert.ToInt32(Console.ReadLine());
+        for (int i = 1; i <= year; i++)
+        {
+            money =(int) (money*((rate / 100.0)+1));
+        }
+        Console.WriteLine($"最終所得:{money}");
+            
