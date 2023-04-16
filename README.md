@@ -469,6 +469,9 @@
                 
             
 //-------------------------------------------------------            
+        
+        
+        
         Console.WriteLine("利率を入力してください");
         int rate = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("元本を入力してください");
