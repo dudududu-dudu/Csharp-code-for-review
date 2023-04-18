@@ -488,8 +488,8 @@
             
             
 //ゲーム：私の数字がいくつだと思いますか？
+        
         Random rd = new Random();
-
         int number = rd.Next(1,101);//1-100
 
         while (true)
