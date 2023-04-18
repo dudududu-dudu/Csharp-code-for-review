@@ -486,3 +486,37 @@
         
         //-------------------------------------------------------      
             
+            
+//ゲーム：私の数字がいくつだと思いますか？
+        Random rd = new Random();
+
+        int number = rd.Next(1,101);//1-100
+
+        while (true)
+        {
+            Console.WriteLine("私の数字がいくつだと思いますか？: ");
+            int numberUser;
+            string input = Console.ReadLine();
+            if (int.TryParse(input, out numberUser) && numberUser > 0 && numberUser <= 100)
+            {
+
+                if (numberUser > number)
+                {
+                    Console.WriteLine("大きすぎます");
+                }
+                else if (numberUser < number)
+                {
+                    Console.WriteLine("小さすぎます");
+                }
+                else
+                {
+                    Console.WriteLine("正解です");
+                    break;
+                }
+            }
+            else
+            {
+                Console.WriteLine("1から100までの整数を入力してください");
+            }
+        }
+
